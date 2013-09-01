@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="Shortcut Icon" href="images/favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>&nbsp;LILY网-cassidy的个人风采网站</title>
+</head>
+<body>
+	<div id="body">
+		<div id="header">
+			<div class="wrapper">
+				<a href="/" class="logo"> <img src="iamges/logo.png" width="229"
+					height="43" alt="怕上火找刘小利">
+				</a>
+				<ul></ul>
+				<ul></ul>
+				<script type="text/javascript">
+					
+				</script>
+			</div>
+		</div>
+
+		<div id="container"></div>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>
