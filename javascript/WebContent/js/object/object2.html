@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+	function member(name,discreption){
+		this.name=name;
+		this.discreption=discreption;
+		this.display=display;
+	}
+	function display(){
+		var str=this.name+":"+this.discreption;
+		document.write(str+"<hr>");
+	}
+	var vip1=new member("留几手", "专业网络虐心评价，粗来玩");
+	var vip2=new member("徐佳曼", "我要贱身");
+	var vip3=new member("刘希平", "浓密的腿毛，雄壮的身躯之爱的深沉");
+	vip1.display();
+	vip2.display();
+	vip3.display();
+	</script>
+</body>
+</html>
