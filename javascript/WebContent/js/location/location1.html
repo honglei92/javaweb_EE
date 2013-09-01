@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+  var timeId;
+  function loadpage(){
+	  timeId=setInterval('countDown()', 1000);
+  }
+</script>
+</head>
+<body onload="loadpage();">
+<script type="text/javascript">
+var sec=5;
+function countDown(){
+	if(sec>0){
+		document.getElementById("num").innerHTML=sec--;
+	}else{
+		location.href="http://www.pv770.com";
+	}
+
+}
+
+</script>
+<p>五秒钟之后看黄片</p><hr>
+<p align="center"><font size="100" id="num">5</font></p>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function isEmail() {
+		var emailValue = document.getElementsByName("email")[0].value;
+		if (emailValue.indexOf("@") == -1) {
+			alert("请输入@符号");
+		} else {
+			alert("恭喜你，我们的界面友好吧")
+		}
+	}
+</script>
+</head>
+<body>
+	email:
+	<input type="text" name="email">
+	<input type="button" onclick="isEmail()" value="提交">
+</body>
+</html>
