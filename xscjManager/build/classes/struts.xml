@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+<package name="default" extends="struts-default">
+<interceptors>
+<interceptor name="myFilter" class="org.tool.MyFilter"/>
+</interceptors>
+<global-results>
+<result name="login">/login.jsp</result>
+</global-results>
+<action name="xsInfo" class="xsAction">
+<result name="success">/xsInfo.jsp</result>
+<interceptor-ref name="defaultStack"></interceptor-ref>
+<interceptor-ref name="myFilter"></interceptor-ref>
+</action>
+<action name="addXsView" class="xsAction" method="addXsView">
+<result name="success">/addXsInfo.jsp</result>
+<interceptor-ref name="defaultStack"></interceptor-ref>
+<interceptor-ref name="myFilter"></interceptor-ref>
+</action>
+<action name="addXscjView" class="cjAction">
+<result name="success">/addCj.jsp</result>
+<interceptor-ref name="defaultStack"></interceptor-ref>
+<interceptor-ref name="myFilter"></interceptor-ref>
+</action>
+<action name="xscjInfo" class="cjAction" method="xscjInfo">
+<result name="success">/xscjInfo.jsp</result>
+<interceptor-ref name="defaultStack"></interceptor-ref>
+<interceptor-ref name="myFilter"></interceptor-ref>
+</action>
+
+<action name="login" class="dlAction">
+<result name="success">/login_success.jsp</result>
+<result name="error">/login.jsp</result>
+</action>
+
+<action name="findXs" class="xsAction" method="findXs">
+<result name="success">/detail.jsp</result>
+</action>
+
+<action name="getImage" class="xsAction" method="getImage"></action>
+
+<action name="deleteXs" class="xsAction" method="deleteXs">
+<result name="success">/success.jsp</result>
+</action>
+
+<action name="updateXsView" class="xsAction" method="updateXsView">
+<result name="success">/updateXsView.jsp</result>
+</action>
+
+<action name="updateXs" class="xsAction" method="updateXs">
+<result name="success">/success.jsp</result>
+</action>
+
+<action name="addXs" class="xsAction" method="addXs">
+<result name="success">/success.jsp</result>
+<result name="error">/existXs.jsp</result>
+</action>
+
+<action name="addorupdateXscj" class="cjAction" method="addorupdateXscj">
+<result name="success">/success.jsp</result>
+</action>
+
+<action name="findXscj" class="cjAction" method="findXscj">
+<result name="success">/oneXscj.jsp</result>
+<result name="error">/noXscj.jsp</result>
+</action>
+
+<action name="deleteOneXscj" class="cjAction" method="deleteOneXscj">
+<result name="success">/success.jsp</result>
+</action>
+</package>
+</struts>
