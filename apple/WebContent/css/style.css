@@ -5,7 +5,7 @@ html,body{
 
 #body{
 	min-height: 100%;
-	height: auto !important;
+	height: auto !important;；
 	height: 100%;
 	margin: 0 0 -37px;
 }
@@ -150,31 +150,159 @@ a:HOVER {
 	*margin-top:-36px;
 }
 
+#container{
+	width: 1024px;
+	margin: 35px auto 0;
+	padding-bottom: 100px;
+}
 
+#sidebar{
+	width: 230px;
+	background: #fafafa;
+	padding: 10px 0;
+	position: absolute;
+	z-index: 1;
+	*position:absolute;
+	*float: left;
+}
 
+#content{
+	width: 744px;
+	float: right;
+}
 
+#linkbox{
+	padding: 15px 0 0 0;
+	margin-top: 40px;
+	border-top: 1px solid #ececed;
+	overflow: hidden;
+}
 
+#linkbox dt{
+	float: left;
+	width: 70px;
+	margin-top: 2px;
+	font-size: 15px;
+}
 
+#linkbox dd{
+	margin-left: 70px;
+	overflow: hidden;
+}
 
+#linkbox a{
+	white-space: nowrap;
+	float: left;
+	padding: 3px 9px;
+	color: #555555;
+	font-size: 12px;
+	text-decoration: none;
+	height: 15px;
+	line-height: 15px;
+	margin: 5px 0 5px -1px;
+}
 
+#linkbox a:HOVER {
+	color: #0061a6;
+	text-decoration: underline;
+}
 
+#linkbox span{
+	float: left;
+	font-size: 12px;
+	padding: 3px 0;
+	color: #999;
+}
 
+#sidebar .menu_main{
+	width: 206px;
+	padding: 0 12px;
+	*padding-bottom: 10px;
+	border: 2px solid #fafafa;
+	border-right: none;
+	overflow: hidden;
+	position: relative;
+}
 
+#sidebar .menu_main h2{
+	padding-left: 8px;
+	background: url(../images/arr.png) right 5px no-repeat;
+}
 
+#sidebar .menu_main a{
+	float: left;
+	white-space: nowrap;
+	margin: 0 10px 10px 0;
+	padding: 0 8px;
+	*padding: 0 6px;
+}
 
+#sidebar .menu_main a:HOVER {
+	background: #C81522;
+	color: #fff;
+}
 
+#sidebar .current .menu_main{
+	background: #fff;
+	border: 2px solid #c9cbce;
+	border-right: none;
+	z-index: 10;
+}
 
+#sidebar .menu_sub{
+	min-width: 650px;
+	padding: 20px 0 0 40px;
+	position: absolute;
+	top: 0;
+	left:230px;
+	z-index: 9;
+	border: 2px solid #c9cbce;
+	background: #fff;
+}
 
+#sidebar .menu_sub ul{
+	float: left;
+	margin-left: 40px;
+	*min-width: 100px;
+}
 
+#sidebar .menu_sub ul li{
+	margin-bottom: 30px;
+	white-space: nowrap;
+}
 
+#sidebar .menu_sub h3{
+	font-size: 14px;
+	margin: 10px 0 5px 0;
+	padding-left: 8px;
+}
 
+#sidebar .menu_sub h3 a{
+	padding: 0;
+	color: #333;
+	line-height: 28px;
+}
 
+#sidebar .menu_sub h3 a:HOVER {
+	text-decoration: underline;
+}
 
+#sidebar .menu_sub a{
+	padding: 0 8px;
+	color: #777;
+	line-height: 28px;
+}
 
+#sidebar .menu_sub a:HOVER {
+	color: #333;
+	text-decoration: underline;
+}
 
-
-
-
+ul.reset{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 
 
 
