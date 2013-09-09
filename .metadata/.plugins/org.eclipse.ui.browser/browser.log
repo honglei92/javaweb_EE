@@ -1,0 +1,312 @@
+
+9月 07, 2013 21:50:04.67 NEW SESSION
+9月 07, 2013 21:50:04.67 error: commonfix: An exception occurred.
+9月 07, 2013 21:50:04.68 TypeError: frame.contentDocument is undefined
+9月 07, 2013 21:50:04.68 resource://gre/modules/commonjs/sdk/content/symbiont.js 131
+9月 07, 2013 21:50:04.69 Traceback (most recent call last):
+9月 07, 2013 21:50:04.69   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 07, 2013 21:50:04.69     return callback.apply(this, arguments);
+9月 07, 2013 21:50:04.70   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 127, in handleEvent
+9月 07, 2013 21:50:04.70     this._regWindow(window);
+9月 07, 2013 21:50:04.70   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 103, in _regWindow
+9月 07, 2013 21:50:04.71     this._delegate.onTrack(window);
+9月 07, 2013 21:50:04.71   File "resource://gre/modules/commonjs/sdk/widget.js", line 508, in browserManager_onTrack
+9月 07, 2013 21:50:04.71     win.addItems(this.items);
+9月 07, 2013 21:50:04.71   File "resource://gre/modules/commonjs/sdk/widget.js", line 578, in BW_addItems
+9月 07, 2013 21:50:04.72     items.forEach(this._addItemToWindow, this);
+9月 07, 2013 21:50:04.72   File "resource://gre/modules/commonjs/sdk/widget.js", line 598, in BW__addItemToWindow
+9月 07, 2013 21:50:04.72     item.fill();
+9月 07, 2013 21:50:04.73   File "resource://gre/modules/commonjs/sdk/widget.js", line 757, in WC_fill
+9月 07, 2013 21:50:04.73     this.setContent();
+9月 07, 2013 21:50:04.73   File "resource://gre/modules/commonjs/sdk/widget.js", line 818, in WC_setContent
+9月 07, 2013 21:50:04.75     onMessage: function(message) {
+9月 07, 2013 21:50:04.76   File "resource://gre/modules/commonjs/sdk/deprecated/traits.js", line 114, in Trait
+9月 07, 2013 21:50:04.76     return self.constructor.apply(self, arguments) || self._public;
+9月 07, 2013 21:50:04.76   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 64, in Symbiont
+9月 07, 2013 21:50:04.77     this._initFrame(options.frame);
+9月 07, 2013 21:50:04.77   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 131, in _initFrame
+9月 07, 2013 21:50:04.77     if ((frame.contentDocument.readyState == "complete" ||
+9月 07, 2013 21:50:20.00 error: commonfix: An exception occurred.
+9月 07, 2013 21:50:20.01 TypeError: this._symbiont is null
+9月 07, 2013 21:50:20.01 resource://gre/modules/commonjs/sdk/widget.js 929
+9月 07, 2013 21:50:20.02 Traceback (most recent call last):
+9月 07, 2013 21:50:20.02   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 07, 2013 21:50:20.02     return callback.apply(this, arguments);
+9月 07, 2013 21:50:20.03   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 139, in observe
+9月 07, 2013 21:50:20.03     this._unregWindow(window);
+9月 07, 2013 21:50:20.03   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 111, in _unregWindow
+9月 07, 2013 21:50:20.04     this._delegate.onUntrack(window);
+9月 07, 2013 21:50:20.04   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in browserManager_onUntrack
+9月 07, 2013 21:50:20.05     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 07, 2013 21:50:20.05   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in 
+9月 07, 2013 21:50:20.05     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 07, 2013 21:50:20.06   File "resource://gre/modules/commonjs/sdk/widget.js", line 307, in _onWindowClosed
+9月 07, 2013 21:50:20.13     view.destroy();
+9月 07, 2013 21:50:20.13   File "resource://gre/modules/commonjs/sdk/widget.js", line 470, in WidgetView_destroy
+9月 07, 2013 21:50:20.14     this._chrome.destroy();
+9月 07, 2013 21:50:20.14   File "resource://gre/modules/commonjs/sdk/widget.js", line 929, in WC_destroy
+9月 07, 2013 21:50:20.15     this._symbiont.destroy();
+9月 07, 2013 21:50:32.69 error: commonfix: An exception occurred.
+9月 07, 2013 21:50:32.70 TypeError: this.node.parentNode is null
+9月 07, 2013 21:50:32.71 resource://gre/modules/commonjs/sdk/widget.js 927
+9月 07, 2013 21:50:32.71 Traceback (most recent call last):
+9月 07, 2013 21:50:32.71   File "resource://gre/modules/XPIProvider.jsm", line 1696, in shutdownObserver
+9月 07, 2013 21:50:32.72     BOOTSTRAP_REASONS.APP_SHUTDOWN);
+9月 07, 2013 21:50:32.72   File "resource://gre/modules/XPIProvider.jsm", line 3827, in XPI_callBootstrapMethod
+9月 07, 2013 21:50:32.73     this.bootstrapScopes[aId][aMethod](params, aReason);
+9月 07, 2013 21:50:32.73   File "jar:file:///C:/Users/banana/AppData/Roaming/Mozilla/Firefox/Profiles/nt4121w1.default/extensions/commonfix@mozillaonline.com.xpi!/bootstrap.js", line 296, in shutdown
+9月 07, 2013 21:50:32.74     unload(loader, reason);
+9月 07, 2013 21:50:32.74   File "resource://gre/modules/commonjs/toolkit/loader.js", line 379, in unload
+9月 07, 2013 21:50:32.74     notifyObservers(subject, 'sdk:loader:destroy', reason);
+9月 07, 2013 21:50:32.75   File "resource://gre/modules/commonjs/sdk/system/events.js", line 62, in 
+9月 07, 2013 21:50:32.75     data: data
+9月 07, 2013 21:50:32.76   File "resource://gre/modules/commonjs/sdk/system/unload.js", line 77, in onunload
+9月 07, 2013 21:50:32.76     unload(reason);
+9月 07, 2013 21:50:32.76   File "resource://gre/modules/commonjs/sdk/system/unload.js", line 56, in unload
+9月 07, 2013 21:50:32.77     observers.forEach(function(observer) {
+9月 07, 2013 21:50:32.77   File "resource://gre/modules/commonjs/sdk/system/unload.js", line 58, in 
+9月 07, 2013 21:50:32.78     observer(reason);
+9月 07, 2013 21:50:32.78   File "resource://gre/modules/commonjs/sdk/system/unload.js", line 67, in 
+9月 07, 2013 21:50:32.79     unloaders.slice().forEach(function(unloadWrapper) {
+9月 07, 2013 21:50:32.79   File "resource://gre/modules/commonjs/sdk/system/unload.js", line 68, in 
+9月 07, 2013 21:50:32.79     unloadWrapper(reason);
+9月 07, 2013 21:50:32.80   File "resource://gre/modules/commonjs/sdk/system/unload.js", line 41, in unloadWrapper
+9月 07, 2013 21:50:32.80     originalDestructor.call(obj, reason);
+9月 07, 2013 21:50:32.81   File "resource://gre/modules/commonjs/sdk/widget.js", line 344, in destroy
+9月 07, 2013 21:50:32.81     this._views[i].destroy();
+9月 07, 2013 21:50:32.81   File "resource://gre/modules/commonjs/sdk/widget.js", line 470, in WidgetView_destroy
+9月 07, 2013 21:50:32.85     this._chrome.destroy();
+9月 07, 2013 21:50:32.85   File "resource://gre/modules/commonjs/sdk/widget.js", line 927, in WC_destroy
+9月 07, 2013 21:50:32.86     this.node.parentNode.removeChild(this.node);
+
+9月 09, 2013 18:42:59.61 NEW SESSION
+9月 09, 2013 18:42:59.61 error: commonfix: An exception occurred.
+9月 09, 2013 18:42:59.64 TypeError: frame.contentDocument is undefined
+9月 09, 2013 18:42:59.64 resource://gre/modules/commonjs/sdk/content/symbiont.js 131
+9月 09, 2013 18:42:59.65 Traceback (most recent call last):
+9月 09, 2013 18:42:59.66   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 09, 2013 18:42:59.66     return callback.apply(this, arguments);
+9月 09, 2013 18:42:59.66   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 127, in handleEvent
+9月 09, 2013 18:42:59.67     this._regWindow(window);
+9月 09, 2013 18:42:59.67   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 103, in _regWindow
+9月 09, 2013 18:42:59.68     this._delegate.onTrack(window);
+9月 09, 2013 18:42:59.68   File "resource://gre/modules/commonjs/sdk/widget.js", line 508, in browserManager_onTrack
+9月 09, 2013 18:42:59.68     win.addItems(this.items);
+9月 09, 2013 18:42:59.69   File "resource://gre/modules/commonjs/sdk/widget.js", line 578, in BW_addItems
+9月 09, 2013 18:42:59.69     items.forEach(this._addItemToWindow, this);
+9月 09, 2013 18:42:59.70   File "resource://gre/modules/commonjs/sdk/widget.js", line 598, in BW__addItemToWindow
+9月 09, 2013 18:42:59.70     item.fill();
+9月 09, 2013 18:42:59.70   File "resource://gre/modules/commonjs/sdk/widget.js", line 757, in WC_fill
+9月 09, 2013 18:42:59.71     this.setContent();
+9月 09, 2013 18:42:59.71   File "resource://gre/modules/commonjs/sdk/widget.js", line 818, in WC_setContent
+9月 09, 2013 18:42:59.72     onMessage: function(message) {
+9月 09, 2013 18:42:59.72   File "resource://gre/modules/commonjs/sdk/deprecated/traits.js", line 114, in Trait
+9月 09, 2013 18:42:59.73     return self.constructor.apply(self, arguments) || self._public;
+9月 09, 2013 18:42:59.73   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 64, in Symbiont
+9月 09, 2013 18:42:59.73     this._initFrame(options.frame);
+9月 09, 2013 18:42:59.74   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 131, in _initFrame
+9月 09, 2013 18:42:59.74     if ((frame.contentDocument.readyState == "complete" ||
+9月 09, 2013 18:43:13.04 error: commonfix: An exception occurred.
+9月 09, 2013 18:43:13.04 TypeError: this._symbiont is null
+9月 09, 2013 18:43:13.04 resource://gre/modules/commonjs/sdk/widget.js 929
+9月 09, 2013 18:43:13.05 Traceback (most recent call last):
+9月 09, 2013 18:43:13.05   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 09, 2013 18:43:13.06     return callback.apply(this, arguments);
+9月 09, 2013 18:43:13.06   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 139, in observe
+9月 09, 2013 18:43:13.07     this._unregWindow(window);
+9月 09, 2013 18:43:13.07   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 111, in _unregWindow
+9月 09, 2013 18:43:13.08     this._delegate.onUntrack(window);
+9月 09, 2013 18:43:13.08   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in browserManager_onUntrack
+9月 09, 2013 18:43:13.08     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 09, 2013 18:43:13.09   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in 
+9月 09, 2013 18:43:13.09     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 09, 2013 18:43:13.10   File "resource://gre/modules/commonjs/sdk/widget.js", line 307, in _onWindowClosed
+9月 09, 2013 18:43:13.10     view.destroy();
+9月 09, 2013 18:43:13.10   File "resource://gre/modules/commonjs/sdk/widget.js", line 470, in WidgetView_destroy
+9月 09, 2013 18:43:13.11     this._chrome.destroy();
+9月 09, 2013 18:43:13.11   File "resource://gre/modules/commonjs/sdk/widget.js", line 929, in WC_destroy
+9月 09, 2013 18:43:13.12     this._symbiont.destroy();
+9月 09, 2013 18:51:55.24 error: commonfix: An exception occurred.
+9月 09, 2013 18:51:55.25 TypeError: frame.contentDocument is undefined
+9月 09, 2013 18:51:55.25 resource://gre/modules/commonjs/sdk/content/symbiont.js 131
+9月 09, 2013 18:51:55.26 Traceback (most recent call last):
+9月 09, 2013 18:51:55.26   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 09, 2013 18:51:55.26     return callback.apply(this, arguments);
+9月 09, 2013 18:51:55.27   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 127, in handleEvent
+9月 09, 2013 18:51:55.27     this._regWindow(window);
+9月 09, 2013 18:51:55.28   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 103, in _regWindow
+9月 09, 2013 18:51:55.28     this._delegate.onTrack(window);
+9月 09, 2013 18:51:55.29   File "resource://gre/modules/commonjs/sdk/widget.js", line 508, in browserManager_onTrack
+9月 09, 2013 18:51:55.29     win.addItems(this.items);
+9月 09, 2013 18:51:55.29   File "resource://gre/modules/commonjs/sdk/widget.js", line 578, in BW_addItems
+9月 09, 2013 18:51:55.30     items.forEach(this._addItemToWindow, this);
+9月 09, 2013 18:51:55.30   File "resource://gre/modules/commonjs/sdk/widget.js", line 598, in BW__addItemToWindow
+9月 09, 2013 18:51:55.31     item.fill();
+9月 09, 2013 18:51:55.31   File "resource://gre/modules/commonjs/sdk/widget.js", line 757, in WC_fill
+9月 09, 2013 18:51:55.32     this.setContent();
+9月 09, 2013 18:51:55.32   File "resource://gre/modules/commonjs/sdk/widget.js", line 818, in WC_setContent
+9月 09, 2013 18:51:55.32     onMessage: function(message) {
+9月 09, 2013 18:51:55.33   File "resource://gre/modules/commonjs/sdk/deprecated/traits.js", line 114, in Trait
+9月 09, 2013 18:51:55.33     return self.constructor.apply(self, arguments) || self._public;
+9月 09, 2013 18:51:55.34   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 64, in Symbiont
+9月 09, 2013 18:51:55.34     this._initFrame(options.frame);
+9月 09, 2013 18:51:55.35   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 131, in _initFrame
+9月 09, 2013 18:51:55.35     if ((frame.contentDocument.readyState == "complete" ||
+9月 09, 2013 18:52:12.47 error: commonfix: An exception occurred.
+9月 09, 2013 18:52:12.48 TypeError: this._symbiont is null
+9月 09, 2013 18:52:12.48 resource://gre/modules/commonjs/sdk/widget.js 929
+9月 09, 2013 18:52:12.49 Traceback (most recent call last):
+9月 09, 2013 18:52:12.49   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 09, 2013 18:52:12.50     return callback.apply(this, arguments);
+9月 09, 2013 18:52:12.50   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 139, in observe
+9月 09, 2013 18:52:12.51     this._unregWindow(window);
+9月 09, 2013 18:52:12.51   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 111, in _unregWindow
+9月 09, 2013 18:52:12.52     this._delegate.onUntrack(window);
+9月 09, 2013 18:52:12.52   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in browserManager_onUntrack
+9月 09, 2013 18:52:12.53     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 09, 2013 18:52:12.53   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in 
+9月 09, 2013 18:52:12.54     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 09, 2013 18:52:12.54   File "resource://gre/modules/commonjs/sdk/widget.js", line 307, in _onWindowClosed
+9月 09, 2013 18:52:12.54     view.destroy();
+9月 09, 2013 18:52:12.55   File "resource://gre/modules/commonjs/sdk/widget.js", line 470, in WidgetView_destroy
+9月 09, 2013 18:52:12.55     this._chrome.destroy();
+9月 09, 2013 18:52:12.56   File "resource://gre/modules/commonjs/sdk/widget.js", line 929, in WC_destroy
+9月 09, 2013 18:52:12.56     this._symbiont.destroy();
+9月 09, 2013 18:56:37.08 error: commonfix: An exception occurred.
+9月 09, 2013 18:56:37.08 TypeError: frame.contentDocument is undefined
+9月 09, 2013 18:56:37.08 resource://gre/modules/commonjs/sdk/content/symbiont.js 131
+9月 09, 2013 18:56:37.09 Traceback (most recent call last):
+9月 09, 2013 18:56:37.09   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 09, 2013 18:56:37.10     return callback.apply(this, arguments);
+9月 09, 2013 18:56:37.10   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 127, in handleEvent
+9月 09, 2013 18:56:37.10     this._regWindow(window);
+9月 09, 2013 18:56:37.11   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 103, in _regWindow
+9月 09, 2013 18:56:37.11     this._delegate.onTrack(window);
+9月 09, 2013 18:56:37.12   File "resource://gre/modules/commonjs/sdk/widget.js", line 508, in browserManager_onTrack
+9月 09, 2013 18:56:37.12     win.addItems(this.items);
+9月 09, 2013 18:56:37.13   File "resource://gre/modules/commonjs/sdk/widget.js", line 578, in BW_addItems
+9月 09, 2013 18:56:37.13     items.forEach(this._addItemToWindow, this);
+9月 09, 2013 18:56:37.14   File "resource://gre/modules/commonjs/sdk/widget.js", line 598, in BW__addItemToWindow
+9月 09, 2013 18:56:37.14     item.fill();
+9月 09, 2013 18:56:37.14   File "resource://gre/modules/commonjs/sdk/widget.js", line 757, in WC_fill
+9月 09, 2013 18:56:37.15     this.setContent();
+9月 09, 2013 18:56:37.15   File "resource://gre/modules/commonjs/sdk/widget.js", line 818, in WC_setContent
+9月 09, 2013 18:56:37.16     onMessage: function(message) {
+9月 09, 2013 18:56:37.16   File "resource://gre/modules/commonjs/sdk/deprecated/traits.js", line 114, in Trait
+9月 09, 2013 18:56:37.16     return self.constructor.apply(self, arguments) || self._public;
+9月 09, 2013 18:56:37.17   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 64, in Symbiont
+9月 09, 2013 18:56:37.17     this._initFrame(options.frame);
+9月 09, 2013 18:56:37.18   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 131, in _initFrame
+9月 09, 2013 18:56:37.18     if ((frame.contentDocument.readyState == "complete" ||
+9月 09, 2013 18:56:50.66 error: commonfix: An exception occurred.
+9月 09, 2013 18:56:50.67 TypeError: this._symbiont is null
+9月 09, 2013 18:56:50.67 resource://gre/modules/commonjs/sdk/widget.js 929
+9月 09, 2013 18:56:50.68 Traceback (most recent call last):
+9月 09, 2013 18:56:50.68   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 09, 2013 18:56:50.68     return callback.apply(this, arguments);
+9月 09, 2013 18:56:50.69   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 139, in observe
+9月 09, 2013 18:56:50.69     this._unregWindow(window);
+9月 09, 2013 18:56:50.70   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 111, in _unregWindow
+9月 09, 2013 18:56:50.70     this._delegate.onUntrack(window);
+9月 09, 2013 18:56:50.71   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in browserManager_onUntrack
+9月 09, 2013 18:56:50.71     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 09, 2013 18:56:50.71   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in 
+9月 09, 2013 18:56:50.72     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 09, 2013 18:56:50.72   File "resource://gre/modules/commonjs/sdk/widget.js", line 307, in _onWindowClosed
+9月 09, 2013 18:56:50.73     view.destroy();
+9月 09, 2013 18:56:50.73   File "resource://gre/modules/commonjs/sdk/widget.js", line 470, in WidgetView_destroy
+9月 09, 2013 18:56:50.74     this._chrome.destroy();
+9月 09, 2013 18:56:50.74   File "resource://gre/modules/commonjs/sdk/widget.js", line 929, in WC_destroy
+9月 09, 2013 18:56:50.74     this._symbiont.destroy();
+9月 09, 2013 19:11:05.51 error: commonfix: An exception occurred.
+9月 09, 2013 19:11:05.52 TypeError: frame.contentDocument is undefined
+9月 09, 2013 19:11:05.52 resource://gre/modules/commonjs/sdk/content/symbiont.js 131
+9月 09, 2013 19:11:05.53 Traceback (most recent call last):
+9月 09, 2013 19:11:05.53   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 09, 2013 19:11:05.54     return callback.apply(this, arguments);
+9月 09, 2013 19:11:05.54   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 127, in handleEvent
+9月 09, 2013 19:11:05.55     this._regWindow(window);
+9月 09, 2013 19:11:05.55   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 103, in _regWindow
+9月 09, 2013 19:11:05.56     this._delegate.onTrack(window);
+9月 09, 2013 19:11:05.56   File "resource://gre/modules/commonjs/sdk/widget.js", line 508, in browserManager_onTrack
+9月 09, 2013 19:11:05.57     win.addItems(this.items);
+9月 09, 2013 19:11:05.57   File "resource://gre/modules/commonjs/sdk/widget.js", line 578, in BW_addItems
+9月 09, 2013 19:11:05.58     items.forEach(this._addItemToWindow, this);
+9月 09, 2013 19:11:05.58   File "resource://gre/modules/commonjs/sdk/widget.js", line 598, in BW__addItemToWindow
+9月 09, 2013 19:11:05.58     item.fill();
+9月 09, 2013 19:11:05.59   File "resource://gre/modules/commonjs/sdk/widget.js", line 757, in WC_fill
+9月 09, 2013 19:11:05.59     this.setContent();
+9月 09, 2013 19:11:05.60   File "resource://gre/modules/commonjs/sdk/widget.js", line 818, in WC_setContent
+9月 09, 2013 19:11:05.60     onMessage: function(message) {
+9月 09, 2013 19:11:05.61   File "resource://gre/modules/commonjs/sdk/deprecated/traits.js", line 114, in Trait
+9月 09, 2013 19:11:05.61     return self.constructor.apply(self, arguments) || self._public;
+9月 09, 2013 19:11:05.61   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 64, in Symbiont
+9月 09, 2013 19:11:05.62     this._initFrame(options.frame);
+9月 09, 2013 19:11:05.62   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 131, in _initFrame
+9月 09, 2013 19:11:05.63     if ((frame.contentDocument.readyState == "complete" ||
+9月 09, 2013 19:11:19.31 error: commonfix: An exception occurred.
+9月 09, 2013 19:11:19.32 TypeError: this._symbiont is null
+9月 09, 2013 19:11:19.32 resource://gre/modules/commonjs/sdk/widget.js 929
+9月 09, 2013 19:11:19.33 Traceback (most recent call last):
+9月 09, 2013 19:11:19.34   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 09, 2013 19:11:19.34     return callback.apply(this, arguments);
+9月 09, 2013 19:11:19.35   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 139, in observe
+9月 09, 2013 19:11:19.35     this._unregWindow(window);
+9月 09, 2013 19:11:19.35   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 111, in _unregWindow
+9月 09, 2013 19:11:19.36     this._delegate.onUntrack(window);
+9月 09, 2013 19:11:19.36   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in browserManager_onUntrack
+9月 09, 2013 19:11:19.37     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 09, 2013 19:11:19.37   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in 
+9月 09, 2013 19:11:19.37     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 09, 2013 19:11:19.38   File "resource://gre/modules/commonjs/sdk/widget.js", line 307, in _onWindowClosed
+9月 09, 2013 19:11:19.38     view.destroy();
+9月 09, 2013 19:11:19.39   File "resource://gre/modules/commonjs/sdk/widget.js", line 470, in WidgetView_destroy
+9月 09, 2013 19:11:19.39     this._chrome.destroy();
+9月 09, 2013 19:11:19.40   File "resource://gre/modules/commonjs/sdk/widget.js", line 929, in WC_destroy
+9月 09, 2013 19:11:19.40     this._symbiont.destroy();
+9月 09, 2013 19:11:32.59 error: commonfix: An exception occurred.
+9月 09, 2013 19:11:32.59 TypeError: frame.contentDocument is undefined
+9月 09, 2013 19:11:32.60 resource://gre/modules/commonjs/sdk/content/symbiont.js 131
+9月 09, 2013 19:11:32.60 Traceback (most recent call last):
+9月 09, 2013 19:11:32.61   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 09, 2013 19:11:32.61     return callback.apply(this, arguments);
+9月 09, 2013 19:11:32.62   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 127, in handleEvent
+9月 09, 2013 19:11:32.62     this._regWindow(window);
+9月 09, 2013 19:11:32.62   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 103, in _regWindow
+9月 09, 2013 19:11:32.63     this._delegate.onTrack(window);
+9月 09, 2013 19:11:32.63   File "resource://gre/modules/commonjs/sdk/widget.js", line 508, in browserManager_onTrack
+9月 09, 2013 19:11:32.64     win.addItems(this.items);
+9月 09, 2013 19:11:32.64   File "resource://gre/modules/commonjs/sdk/widget.js", line 578, in BW_addItems
+9月 09, 2013 19:11:32.65     items.forEach(this._addItemToWindow, this);
+9月 09, 2013 19:11:32.65   File "resource://gre/modules/commonjs/sdk/widget.js", line 598, in BW__addItemToWindow
+9月 09, 2013 19:11:32.65     item.fill();
+9月 09, 2013 19:11:32.66   File "resource://gre/modules/commonjs/sdk/widget.js", line 757, in WC_fill
+9月 09, 2013 19:11:32.66     this.setContent();
+9月 09, 2013 19:11:32.67   File "resource://gre/modules/commonjs/sdk/widget.js", line 818, in WC_setContent
+9月 09, 2013 19:11:32.67     onMessage: function(message) {
+9月 09, 2013 19:11:32.68   File "resource://gre/modules/commonjs/sdk/deprecated/traits.js", line 114, in Trait
+9月 09, 2013 19:11:32.68     return self.constructor.apply(self, arguments) || self._public;
+9月 09, 2013 19:11:32.69   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 64, in Symbiont
+9月 09, 2013 19:11:32.69     this._initFrame(options.frame);
+9月 09, 2013 19:11:32.69   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 131, in _initFrame
+9月 09, 2013 19:11:32.70     if ((frame.contentDocument.readyState == "complete" ||
+9月 09, 2013 19:11:46.74 error: commonfix: An exception occurred.
+9月 09, 2013 19:11:46.74 TypeError: this._symbiont is null
+9月 09, 2013 19:11:46.75 resource://gre/modules/commonjs/sdk/widget.js 929
+9月 09, 2013 19:11:46.75 Traceback (most recent call last):
+9月 09, 2013 19:11:46.76   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 09, 2013 19:11:46.76     return callback.apply(this, arguments);
+9月 09, 2013 19:11:46.76   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 139, in observe
+9月 09, 2013 19:11:46.77     this._unregWindow(window);
+9月 09, 2013 19:11:46.77   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 111, in _unregWindow
+9月 09, 2013 19:11:46.78     this._delegate.onUntrack(window);
+9月 09, 2013 19:11:46.78   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in browserManager_onUntrack
+9月 09, 2013 19:11:46.79     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 09, 2013 19:11:46.79   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in 
+9月 09, 2013 19:11:46.79     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 09, 2013 19:11:46.80   File "resource://gre/modules/commonjs/sdk/widget.js", line 307, in _onWindowClosed
+9月 09, 2013 19:11:46.80     view.destroy();
+9月 09, 2013 19:11:46.81   File "resource://gre/modules/commonjs/sdk/widget.js", line 470, in WidgetView_destroy
+9月 09, 2013 19:11:46.81     this._chrome.destroy();
+9月 09, 2013 19:11:46.82   File "resource://gre/modules/commonjs/sdk/widget.js", line 929, in WC_destroy
+9月 09, 2013 19:11:46.82     this._symbiont.destroy();

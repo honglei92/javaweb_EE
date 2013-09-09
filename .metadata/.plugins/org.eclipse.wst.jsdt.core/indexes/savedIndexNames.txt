@@ -2,6 +2,5 @@ INDEX VERSION 1.122+E:\Github\.metadata\.plugins\org.eclipse.wst.jsdt.core\index
 495737537.index
 3950507418.index
 3339904457.index
-178382796.index
 2776780386.index
 1207963539.index
