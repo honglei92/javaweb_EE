@@ -310,3 +310,49 @@
 9月 09, 2013 19:11:46.81     this._chrome.destroy();
 9月 09, 2013 19:11:46.82   File "resource://gre/modules/commonjs/sdk/widget.js", line 929, in WC_destroy
 9月 09, 2013 19:11:46.82     this._symbiont.destroy();
+9月 09, 2013 19:29:15.65 error: commonfix: An exception occurred.
+9月 09, 2013 19:29:15.65 TypeError: frame.contentDocument is undefined
+9月 09, 2013 19:29:15.65 resource://gre/modules/commonjs/sdk/content/symbiont.js 131
+9月 09, 2013 19:29:15.66 Traceback (most recent call last):
+9月 09, 2013 19:29:15.66   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 09, 2013 19:29:15.67     return callback.apply(this, arguments);
+9月 09, 2013 19:29:15.67   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 127, in handleEvent
+9月 09, 2013 19:29:15.68     this._regWindow(window);
+9月 09, 2013 19:29:15.68   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 103, in _regWindow
+9月 09, 2013 19:29:15.69     this._delegate.onTrack(window);
+9月 09, 2013 19:29:15.69   File "resource://gre/modules/commonjs/sdk/widget.js", line 508, in browserManager_onTrack
+9月 09, 2013 19:29:15.69     win.addItems(this.items);
+9月 09, 2013 19:29:15.70   File "resource://gre/modules/commonjs/sdk/widget.js", line 578, in BW_addItems
+9月 09, 2013 19:29:15.70     items.forEach(this._addItemToWindow, this);
+9月 09, 2013 19:29:15.71   File "resource://gre/modules/commonjs/sdk/widget.js", line 598, in BW__addItemToWindow
+9月 09, 2013 19:29:15.71     item.fill();
+9月 09, 2013 19:29:15.72   File "resource://gre/modules/commonjs/sdk/widget.js", line 757, in WC_fill
+9月 09, 2013 19:29:15.72     this.setContent();
+9月 09, 2013 19:29:15.73   File "resource://gre/modules/commonjs/sdk/widget.js", line 818, in WC_setContent
+9月 09, 2013 19:29:15.73     onMessage: function(message) {
+9月 09, 2013 19:29:15.74   File "resource://gre/modules/commonjs/sdk/deprecated/traits.js", line 114, in Trait
+9月 09, 2013 19:29:15.74     return self.constructor.apply(self, arguments) || self._public;
+9月 09, 2013 19:29:15.74   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 64, in Symbiont
+9月 09, 2013 19:29:15.75     this._initFrame(options.frame);
+9月 09, 2013 19:29:15.76   File "resource://gre/modules/commonjs/sdk/content/symbiont.js", line 131, in _initFrame
+9月 09, 2013 19:29:15.76     if ((frame.contentDocument.readyState == "complete" ||
+9月 09, 2013 19:29:28.20 error: commonfix: An exception occurred.
+9月 09, 2013 19:29:28.20 TypeError: this._symbiont is null
+9月 09, 2013 19:29:28.20 resource://gre/modules/commonjs/sdk/widget.js 929
+9月 09, 2013 19:29:28.21 Traceback (most recent call last):
+9月 09, 2013 19:29:28.21   File "resource://gre/modules/commonjs/sdk/deprecated/errors.js", line 23, in 
+9月 09, 2013 19:29:28.22     return callback.apply(this, arguments);
+9月 09, 2013 19:29:28.22   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 139, in observe
+9月 09, 2013 19:29:28.23     this._unregWindow(window);
+9月 09, 2013 19:29:28.23   File "resource://gre/modules/commonjs/sdk/deprecated/window-utils.js", line 111, in _unregWindow
+9月 09, 2013 19:29:28.24     this._delegate.onUntrack(window);
+9月 09, 2013 19:29:28.24   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in browserManager_onUntrack
+9月 09, 2013 19:29:28.24     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 09, 2013 19:29:28.25   File "resource://gre/modules/commonjs/sdk/widget.js", line 521, in 
+9月 09, 2013 19:29:28.25     this.items.forEach(function(i) i._onWindowClosed(window));
+9月 09, 2013 19:29:28.26   File "resource://gre/modules/commonjs/sdk/widget.js", line 307, in _onWindowClosed
+9月 09, 2013 19:29:28.26     view.destroy();
+9月 09, 2013 19:29:28.26   File "resource://gre/modules/commonjs/sdk/widget.js", line 470, in WidgetView_destroy
+9月 09, 2013 19:29:28.27     this._chrome.destroy();
+9月 09, 2013 19:29:28.27   File "resource://gre/modules/commonjs/sdk/widget.js", line 929, in WC_destroy
+9月 09, 2013 19:29:28.28     this._symbiont.destroy();
