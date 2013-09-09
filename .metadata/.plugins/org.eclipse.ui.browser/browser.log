@@ -402,3 +402,35 @@
 9月 09, 2013 20:36:54.09     this._chrome.destroy();
 9月 09, 2013 20:36:54.09   File "resource://gre/modules/commonjs/sdk/widget.js", line 929, in WC_destroy
 9月 09, 2013 20:36:54.10     this._symbiont.destroy();
+9月 09, 2013 21:29:28.17 error: commonfix: An exception occurred.
+9月 09, 2013 21:29:28.17 TypeError: this.node.parentNode is null
+9月 09, 2013 21:29:28.18 resource://gre/modules/commonjs/sdk/widget.js 927
+9月 09, 2013 21:29:28.18 Traceback (most recent call last):
+9月 09, 2013 21:29:28.19   File "resource://gre/modules/XPIProvider.jsm", line 1696, in shutdownObserver
+9月 09, 2013 21:29:28.19     BOOTSTRAP_REASONS.APP_SHUTDOWN);
+9月 09, 2013 21:29:28.20   File "resource://gre/modules/XPIProvider.jsm", line 3827, in XPI_callBootstrapMethod
+9月 09, 2013 21:29:28.20     this.bootstrapScopes[aId][aMethod](params, aReason);
+9月 09, 2013 21:29:28.20   File "jar:file:///C:/Users/banana/AppData/Roaming/Mozilla/Firefox/Profiles/nt4121w1.default/extensions/commonfix@mozillaonline.com.xpi!/bootstrap.js", line 296, in shutdown
+9月 09, 2013 21:29:28.21     unload(loader, reason);
+9月 09, 2013 21:29:28.21   File "resource://gre/modules/commonjs/toolkit/loader.js", line 379, in unload
+9月 09, 2013 21:29:28.22     notifyObservers(subject, 'sdk:loader:destroy', reason);
+9月 09, 2013 21:29:28.22   File "resource://gre/modules/commonjs/sdk/system/events.js", line 62, in 
+9月 09, 2013 21:29:28.23     data: data
+9月 09, 2013 21:29:28.23   File "resource://gre/modules/commonjs/sdk/system/unload.js", line 77, in onunload
+9月 09, 2013 21:29:28.24     unload(reason);
+9月 09, 2013 21:29:28.24   File "resource://gre/modules/commonjs/sdk/system/unload.js", line 56, in unload
+9月 09, 2013 21:29:28.24     observers.forEach(function(observer) {
+9月 09, 2013 21:29:28.25   File "resource://gre/modules/commonjs/sdk/system/unload.js", line 58, in 
+9月 09, 2013 21:29:28.25     observer(reason);
+9月 09, 2013 21:29:28.26   File "resource://gre/modules/commonjs/sdk/system/unload.js", line 67, in 
+9月 09, 2013 21:29:28.26     unloaders.slice().forEach(function(unloadWrapper) {
+9月 09, 2013 21:29:28.27   File "resource://gre/modules/commonjs/sdk/system/unload.js", line 68, in 
+9月 09, 2013 21:29:28.27     unloadWrapper(reason);
+9月 09, 2013 21:29:28.28   File "resource://gre/modules/commonjs/sdk/system/unload.js", line 41, in unloadWrapper
+9月 09, 2013 21:29:28.28     originalDestructor.call(obj, reason);
+9月 09, 2013 21:29:28.28   File "resource://gre/modules/commonjs/sdk/widget.js", line 344, in destroy
+9月 09, 2013 21:29:28.29     this._views[i].destroy();
+9月 09, 2013 21:29:28.29   File "resource://gre/modules/commonjs/sdk/widget.js", line 470, in WidgetView_destroy
+9月 09, 2013 21:29:28.30     this._chrome.destroy();
+9月 09, 2013 21:29:28.30   File "resource://gre/modules/commonjs/sdk/widget.js", line 927, in WC_destroy
+9月 09, 2013 21:29:28.31     this.node.parentNode.removeChild(this.node);
