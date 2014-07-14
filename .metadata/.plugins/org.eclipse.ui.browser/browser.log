@@ -434,3 +434,108 @@
 9月 09, 2013 21:29:28.30     this._chrome.destroy();
 9月 09, 2013 21:29:28.30   File "resource://gre/modules/commonjs/sdk/widget.js", line 927, in WC_destroy
 9月 09, 2013 21:29:28.31     this.node.parentNode.removeChild(this.node);
+
+3月 23, 2014 23:12:08.11 NEW SESSION
+3月 23, 2014 23:12:08.11 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+3月 23, 2014 23:15:03.16 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+3月 23, 2014 23:23:07.50 NOTE: child process received `Goodbye', closing down
+
+3月 24, 2014 21:32:06.10 NEW SESSION
+3月 24, 2014 21:32:06.10 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+3月 24, 2014 21:39:04.93 NOTE: child process received `Goodbye', closing down
+3月 24, 2014 21:39:04.93 WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 312
+3月 24, 2014 21:53:19.25 NOTE: child process received `Goodbye', closing down
+3月 24, 2014 21:53:19.25 WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 312
+
+4月 12, 2014 09:18:49.47 NEW SESSION
+4月 12, 2014 09:18:49.47 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+
+4月 12, 2014 10:29:29.13 NEW SESSION
+4月 12, 2014 10:29:29.13 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+4月 12, 2014 10:29:48.74 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+4月 12, 2014 10:31:52.16 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+4月 12, 2014 10:33:20.21 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+4月 12, 2014 10:33:37.42 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+4月 12, 2014 11:45:22.25 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+
+4月 15, 2014 07:51:04.30 NEW SESSION
+4月 15, 2014 07:51:04.30 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+
+4月 15, 2014 22:22:34.76 NEW SESSION
+4月 15, 2014 22:22:34.76 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+4月 15, 2014 22:26:16.59 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+4月 15, 2014 22:37:19.80 No permission to use the keyboard API for http://googleads.g.doubleclick.net
+4月 15, 2014 22:43:47.70 NOTE: child process received `Goodbye', closing down
+4月 15, 2014 22:43:47.71 [7124] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 312
+4月 15, 2014 22:43:54.58 No permission to use the keyboard API for http://googleads.g.doubleclick.net
+4月 15, 2014 22:48:07.87 NOTE: child process received `Goodbye', closing down
+4月 15, 2014 22:48:07.87 [6148] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 312
+4月 15, 2014 22:52:54.55 [5364] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 312
+4月 15, 2014 22:52:54.55 NOTE: child process received `Goodbye', closing down
+4月 15, 2014 22:53:15.52 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+4月 15, 2014 22:58:17.03 No permission to use the keyboard API for http://googleads.g.doubleclick.net
+4月 15, 2014 23:11:52.12 NOTE: child process received `Goodbye', closing down
+4月 15, 2014 23:11:52.12 [7972] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 312
+4月 15, 2014 23:58:26.40 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+4月 15, 2014 23:59:20.22 No permission to use the keyboard API for http://localhost:8080
+4月 16, 2014 24:04:24.27 NOTE: child process received `Goodbye', closing down
+4月 16, 2014 24:04:24.27 [3248] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 312
+
+5月 13, 2014 22:49:20.35 NEW SESSION
+5月 13, 2014 22:49:20.35 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+
+5月 16, 2014 17:54:43.88 NEW SESSION
+5月 16, 2014 17:54:43.88 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+5月 16, 2014 21:16:50.42 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+5月 16, 2014 21:18:10.40 NOTE: child process received `Goodbye', closing down
+5月 16, 2014 21:18:10.59 [6128] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 312
+5月 16, 2014 21:18:43.01 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+5月 16, 2014 21:52:15.78 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+5月 16, 2014 21:56:17.26 NOTE: child process received `Goodbye', closing down
+5月 16, 2014 21:56:17.26 [6904] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 312
+
+5月 16, 2014 23:59:58.95 NEW SESSION
+5月 16, 2014 23:59:58.95 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+
+5月 17, 2014 07:10:43.82 NEW SESSION
+5月 17, 2014 07:10:43.82 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+5月 17, 2014 07:11:17.45 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+5月 17, 2014 07:11:56.36 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+5月 17, 2014 07:12:13.46 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+5月 17, 2014 07:13:24.34 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+5月 17, 2014 07:39:54.72 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+5月 17, 2014 07:46:20.40 [2872] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 312
+5月 17, 2014 07:46:20.40 NOTE: child process received `Goodbye', closing down
+5月 17, 2014 08:05:32.85 NOTE: child process received `Goodbye', closing down
+5月 17, 2014 08:05:32.86 [6012] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 312
+5月 17, 2014 08:43:55.54 No permission to use the keyboard API for http://localhost:8080
+5月 17, 2014 08:58:02.26 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+5月 17, 2014 09:56:33.32 [5116] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 312
+5月 17, 2014 09:56:33.32 NOTE: child process received `Goodbye', closing down
+
+5月 17, 2014 11:03:06.51 NEW SESSION
+5月 17, 2014 11:03:06.51 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+
+5月 21, 2014 21:03:57.12 NEW SESSION
+5月 21, 2014 21:03:57.13 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+
+5月 22, 2014 24:22:34.87 NEW SESSION
+5月 22, 2014 24:22:34.87 *** ERROR COBA: Failed to hook function: getShortcutOrURI
+
+7月 03, 2014 22:32:56.85 NEW SESSION
+7月 03, 2014 22:32:56.85 1404397976808	addons.manager	WARN	Exception calling callback
+7月 03, 2014 22:33:00.05 console.error: 
+7月 03, 2014 22:33:00.05   [CustomizableUI]
+7月 03, 2014 22:33:00.05   [Exception... "Node was not found"  code: "8" nsresult: "0x80530008 (NotFoundError)"  location: "<unknown>"] -- undefined:1014
+7月 03, 2014 22:33:01.10 console.error: 
+7月 03, 2014 22:33:01.10   [CustomizableUI]
+7月 03, 2014 22:33:01.10   [Exception... "Node was not found"  code: "8" nsresult: "0x80530008 (NotFoundError)"  location: "<unknown>"] -- undefined:1014
+7月 03, 2014 23:18:24.32 1404400704300	addons.update-checker	WARN	Update manifest for CNTVLive2@www.cntv.cn did not contain an updates property
+7月 03, 2014 23:18:24.34 1404400704316	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+7月 03, 2014 23:18:25.56 1404400705516	addons.update-checker	WARN	Update manifest for ICBCClrCache@icbc.com.cn did not contain an updates property
+7月 03, 2014 23:18:25.56 1404400705521	addons.update-checker	WARN	Update manifest for dict@www.youdao.com did not contain an updates property
+7月 03, 2014 23:18:30.06 1404400710034	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+7月 03, 2014 23:35:12.85 [8052] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 310
+7月 03, 2014 23:35:36.42 [10032] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 310
+7月 03, 2014 23:51:54.64 [9208] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 310
+7月 03, 2014 23:54:19.35 [6092] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 310

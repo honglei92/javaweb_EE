@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.student.score.manage.model">
+	<class name="StudentInfo" table="StudentInfo">
+		<id name="sid" column="sid" type="java.lang.String" length="12">
+			<generator class="assigned"></generator>
+		</id>
+		<property name="sname" column="sname" type="java.lang.String"
+			length="20" not-null="true" />
+		<property name="sex" column="sex" type="java.lang.String"
+			length="2" not-null="true" />
+		<property name="birthday" column="birthday" type="java.lang.String"
+			length="30" not-null="true" />
+		<property name="allCredit" column="allCredit" type="java.lang.Integer" />
+		<property name="remark" column="remark" type="java.lang.String"
+			length="500" />
+		<property name="photo" column="photo" />
+		<many-to-one name="majorInfo"
+			class="org.student.score.manage.model.MajorInfo" lazy="false" fetch="select"
+			cascade="all">
+			<column name="zid"></column>
+		</many-to-one>
+	</class>
+</hibernate-mapping>

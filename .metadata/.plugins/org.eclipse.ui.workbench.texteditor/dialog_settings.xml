@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="273" key="DIALOG_WIDTH"/>
-		<item value="122" key="DIALOG_Y_ORIGIN"/>
-		<item value="8" key="DIALOG_X_ORIGIN"/>
+		<item value="180" key="DIALOG_Y_ORIGIN"/>
+		<item value="952" key="DIALOG_X_ORIGIN"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
 		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 	</section>
@@ -13,18 +13,22 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="B" key="selection"/>
+		<item value="kc" key="selection"/>
 		<list key="findhistory">
+			<item value="kc"/>
+			<item value="kcAction"/>
+			<item value="kcb"/>
+			<item value="Kxh"/>
+			<item value="Xh"/>
+			<item value="xs"/>
 			<item value="穷人"/>
 			<item value="富人"/>
-			<item value="财富工具箱"/>
-			<item value="box"/>
-			<item value=".js"/>
-			<item value="js"/>
-			<item value="menu_main"/>
-			<item value="menu_box"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Kcb"/>
+			<item value="Kch"/>
+			<item value="Kxh"/>
+			<item value="kc"/>
 			<item value="B"/>
 			<item value="A"/>
 			<item value="0"/>

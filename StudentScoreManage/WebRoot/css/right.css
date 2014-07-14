@@ -1,0 +1,24 @@
+a {
+	text-decoration: none;
+	font-size: large;
+}
+
+a:LINK {
+	color: blue;
+}
+
+a:VISITED {
+	color:#cc00cc;
+}
+
+#right {
+	background-color: #999999;
+}
+
+a:HOVER {
+	color:#006633;
+}
+
+a:ACTIVE {
+	color:#cc0000;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;xscjManager&apos; to &apos;StudentPracticeManager&apos;" description="Rename resource &apos;xscjManager&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/xscjManager" name="StudentPracticeManager" stamp="1397265191914" updateReferences="true"/>
+</session>

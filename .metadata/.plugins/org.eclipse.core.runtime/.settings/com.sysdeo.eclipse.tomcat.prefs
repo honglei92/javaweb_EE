@@ -1,0 +1,9 @@
+#Thu Dec 26 23:06:13 CST 2013
+projectsInSourcePath=apple;javase;whl;xscjManager;
+tomcatJRE=1379340944770
+managerUrl=http\://localhost\:8080/manager
+eclipse.preferences.version=1
+fixTomcatHomeBug=fixed
+contextsDir=\\conf\\Catalina\\localhost
+tomcatVersion=tomcatV3
+tomcatConfigFile=\\conf\\server.xml

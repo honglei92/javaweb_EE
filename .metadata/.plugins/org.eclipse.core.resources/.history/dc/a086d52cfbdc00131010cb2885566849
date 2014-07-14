@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd" >
+<struts>
+
+	<!-- 设置struts配置文件自动更新 -->
+	<constant name="struts.configeration.xml.reload" value="true" />
+	<!-- 设置struts的编码方式 -->
+	<constant name="struts.locale" value="zh_CN"></constant>
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<!-- 设置struts为开发模式 -->
+	<constant name="struts.devMode" value="trus" />
+
+	<package name="default" extends="struts-default" namespace="/">
+		<!-- 登录验证 -->
+		<action name="login" class="loginAction">
+			<result name="success">
+				/jsp/success.jsp
+			</result>
+			<result name="input">
+				/jsp/login.jsp
+			</result>
+		</action>
+		<!-- 注销登录 -->
+		<action name="logout" class="loginAction" method="logout">
+			<result name="success">
+				/jsp/main.jsp
+			</result>
+		</action>
+		<action name="goToSuccess" class="loginAction" method="goToSuccess">
+			<result name="success">
+				/jsp/success.jsp
+			</result>
+		</action>
+		<action name="showNews" class="loginAction" method="showNews">
+			<result name="success">
+				/jsp/newsinfo.jsp
+			</result>
+		</action>
+		<action name="showAllNews" class="loginAction" method="showAllNews">
+			<result name="success">
+				/jsp/allnews.jsp
+			</result>
+		</action>
+
+
+		<!-- 配置学生信息Action -->
+		<action name="showStudent" class="showStudent">
+			<result name="success">
+				/jsp/studentinfo.jsp
+			</result>
+			<result name="input">
+				/jsp/success.jsp
+			</result>
+		</action>
+		<action name="register" class="showStudent" method="registerStduent">
+			<result name="success">
+				/jsp/successed.jsp
+			</result>
+			<result name="error">
+				/jsp/error.jsp
+			</result>
+		</action>
+		<action name="delete" class="showStudent" method="deleteStudent">
+			<result name="success">
+				/jsp/successed.jsp
+			</result>
+		</action>
+		<action name="update" class="showStudent" method="updateStudent">
+			<result name="success">
+				/jsp/successed.jsp
+			</result>
+		</action>
+		<action name="add" class="showStudent" method="addView">
+			<result name="success">
+				/jsp/register.jsp
+			</result>
+		</action>
+		<action name="updateView" class="showStudent" method="updateView">
+			<result name="success">
+				/jsp/update.jsp
+			</result>
+		</action>
+		<!-- 显示学生详细信息 -->
+		<action name="showDetailView" class="showStudent" method="showDetail">
+			<result name="success">
+				/jsp/studentdetail.jsp
+			</result>
+		</action>
+		<action name="getImage" class="showStudent" method="getImage">
+		</action>
+	</package>
+
+
+	<!-- 配置课程的action -->
+	<package name="course" extends="struts-default" namespace="/">
+		<action name="addCourseView" class="courseAction" method="addCourseView">
+			<result name="success">
+				/jsp/course.jsp
+			</result>
+		</action>
+		<action name="updateCourseView" class="courseAction" method="updateCourseView">
+			<result name="success">
+				/jsp/updatecourse.jsp
+			</result>
+		</action>
+		<action name="showCourseView" class="courseAction" method="showCourseView">
+			<result name="success">
+				/jsp/courseinfo.jsp
+			</result>
+		</action>
+		<action name="showDetail" class="courseAction" method="showDetail">
+			<result name="success">
+				/jsp/coursedetail.jsp
+			</result>
+		</action>
+		<action name="addCourse" class="courseAction" method="addCourse">
+			<result name="success">
+				/jsp/successed.jsp
+			</result>
+			<result name="error">
+				/jsp/error.jsp
+			</result>
+		</action>
+		<action name="updateCourse" class="courseAction" method="updateCourse">
+			<result name="success">
+				/jsp/successed.jsp
+			</result>
+			<result name="error">
+				/jsp/error.jsp
+			</result>
+		</action>
+		<action name="deleteCourse" class="courseAction" method="deleteCourse">
+			<result name="success">
+				/jsp/successed.jsp
+			</result>
+		</action>
+	</package>
+
+	<!-- 配置成绩信息的Action -->
+	<package name="score" extends="struts-default" namespace="/">
+		<action name="addScoreView" class="scoreAction" method="addScoreView">
+			<result name="success">
+				/jsp/addscore.jsp
+			</result>
+		</action>
+		<action name="showScoreView" class="scoreAction" method="showScoreView">
+			<result name="success">
+				/jsp/scoreinfo.jsp
+			</result>
+		</action>
+		<action name="addScore" class="scoreAction" method="addScore">
+			<result name="success">
+				/jsp/successed.jsp
+			</result>
+		</action>
+		<action name="deleteScore" class="scoreAction" method="deleteScore">
+			<result name="success">
+				/jsp/successed.jsp
+			</result>
+		</action>
+		<action name="findScore" class="scoreAction" method="findScore">
+			<result name="success">
+				/jsp/studentscore.jsp
+			</result>
+			<result name="error">
+				/jsp/error.jsp
+			</result>
+		</action>
+	</package>
+</struts>

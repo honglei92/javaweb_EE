@@ -1,0 +1,65 @@
+#re {
+	width: 600px;
+	margin-left: 30px;
+}
+
+#register {
+	background-image: url("../images/back.jpg");
+	width: 709px;
+	height: 504px;
+}
+
+#register .rsi {
+	font-size: large;
+	font-weight: bold;
+	margin-top:10px;
+	margin-left: 10px;
+}
+
+#register #si {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#register #sn {
+	margin-left: 20px;
+}
+
+#register #ss {
+	margin-left: 20px;
+}
+
+#register #sb {
+	margin-left: 20px;
+}
+
+#register #sm {
+	margin-left: 20px;
+}
+
+#register #sr {
+	margin-left: 20px;
+}
+
+#register #sp {
+	margin-left: 20px;
+}
+
+#register #remark { /* 使标题位于垂直方向的顶部 */
+	vertical-align: top;
+}
+
+#sr img {
+	margin-left: 20px;
+	border-color: blue;
+}
+
+#register .submit {
+	margin-left: 200px;
+	margin-bottom: 10px;
+}
+
+#register .reset {
+	margin-left: 40px;
+	margin-bottom: 10px;
+}

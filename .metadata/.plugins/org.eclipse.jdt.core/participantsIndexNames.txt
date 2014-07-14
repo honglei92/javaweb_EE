@@ -1,0 +1,25 @@
+INDEX VERSION 1.126
+D:\Github\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3207514622.index
+\StudentScoreManager\src
+D:\Github\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\790222025.index
+\doc\src
+D:\Github\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2380509931.index
+\xscjManager\src
+D:\Github\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1182033009.index
+\StudentScoreManage\src
+D:\Github\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1412669135.index
+\StudentScoreManage\src
+D:\Github\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2358081909.index
+\StudentScoreManage\src
+D:\Github\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2822463030.index
+\student\src
+D:\Github\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4120102562.index
+\StudentScoreManage\src
+D:\Github\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4185491115.index
+\StudentScoreManage\src
+D:\Github\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2152811456.index
+\StudentPracticeManager\src
+D:\Github\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1785830928.index
+\StudentScoreManage\src
+D:\Github\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3888188070.index
+\student\src

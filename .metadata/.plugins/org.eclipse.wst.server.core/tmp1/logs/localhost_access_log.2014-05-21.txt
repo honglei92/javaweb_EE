@@ -1,0 +1,9 @@
+127.0.0.1 - - [21/May/2014:21:03:44 +0800] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [21/May/2014:21:04:02 +0800] "GET /student/main.jsp HTTP/1.1" 200 563
+0:0:0:0:0:0:0:1 - - [21/May/2014:21:04:03 +0800] "GET /student/png_favico.png HTTP/1.1" 200 1094
+0:0:0:0:0:0:0:1 - - [21/May/2014:21:04:03 +0800] "GET /student/head.jsp HTTP/1.1" 200 532
+0:0:0:0:0:0:0:1 - - [21/May/2014:21:04:03 +0800] "GET /student/css/random_background.css HTTP/1.1" 200 553
+0:0:0:0:0:0:0:1 - - [21/May/2014:21:04:03 +0800] "GET /student/right.jsp HTTP/1.1" 200 493
+0:0:0:0:0:0:0:1 - - [21/May/2014:21:04:03 +0800] "GET /student/foot.jsp HTTP/1.1" 200 477
+0:0:0:0:0:0:0:1 - - [21/May/2014:21:04:03 +0800] "GET /student/left.jsp HTTP/1.1" 200 1346
+0:0:0:0:0:0:0:1 - - [21/May/2014:21:04:04 +0800] "GET /student/images/cduedu-1161-427.jpg HTTP/1.1" 200 236024

@@ -1,0 +1,22 @@
+a {
+	margin-top:5px;
+	margin-left:10px;
+	text-decoration: none;
+	font-size: large;
+}
+
+a:LINK {
+	color: #000000;
+}
+
+a:VISITED {
+	color:#cc00cc;
+}
+
+a:HOVER {
+	color:#006633;
+}
+
+a:ACTIVE {
+	color:#cc0000;
+}

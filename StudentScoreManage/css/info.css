@@ -1,0 +1,13 @@
+#head {
+	width: 890px;
+	height:80px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#foot {
+	width: 890px;
+	height:60px;
+	margin: 0 auto;
+	position: relative;
+}

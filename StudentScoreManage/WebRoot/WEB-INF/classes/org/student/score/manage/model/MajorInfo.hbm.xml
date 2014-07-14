@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.student.score.manage.model">
+	<class name="MajorInfo" table="MajorInfo">
+		<id name="zid" column="zid" type="java.lang.Integer">
+			<generator class="identity"></generator>
+		</id>
+		<property name="zname" column="zname" type="java.lang.String"
+			length="20" not-null="true" />
+		<property name="count" column="count" type="java.lang.Integer"  />
+		<property name="counselor" column="counselor" type="java.lang.String"
+			length="12" />
+	</class>
+</hibernate-mapping>

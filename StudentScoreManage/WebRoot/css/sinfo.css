@@ -1,0 +1,20 @@
+#studentinfo {
+	background-image: url("../images/back.jpg");
+	width: 709px;
+	height: 504px;
+	padding-top: 20px;
+}
+
+#studentinfo #si {
+	font-size: xx-large;
+	margin-left: 250px;
+}
+
+#studentinfo table {
+	width: 700px;
+	margin-left: 5px;
+}
+
+#studentinfo table tr td {
+	height: 40px;
+}

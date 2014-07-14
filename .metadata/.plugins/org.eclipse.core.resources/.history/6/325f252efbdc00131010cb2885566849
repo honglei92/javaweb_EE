@@ -1,0 +1,95 @@
+#info {
+	background-image: url("../images/loginsuccess.gif");
+	width: 709px;
+	height: 504px;
+}
+
+#su {
+	text-align: right;
+	color: blue;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:LINK {
+	color: black;
+}
+
+a:HOVER {
+	color: blue;
+}
+
+a:VISITED {
+	color: green;
+}
+
+a:ACTIVE {
+	color: red;
+}
+
+#t1 {
+	margin-top: 30px;
+	width: 320px;
+	height: 200px;
+	border-style: dotted;
+	border-color: green;
+	float: left;
+	margin-left: 10px;
+}
+
+#t2 {
+	width: 320px;
+	height: 200px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+	border-style: dotted;
+	border-color: green;
+	margin-top: 30px;
+}
+
+#t3 {
+	width: 320px;
+	height: 200px;
+	float: left;
+	margin-top: 20px;
+	border-style: dotted;
+	border-color: green;
+	margin-left: 10px;
+}
+
+#t4 {
+	width: 320px;
+	height: 200px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	border-style: dotted;
+	border-color: green;
+}
+
+.d {
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+.more {
+	float: right;
+	margin-top: 5px;
+	margin-right: 9px;
+}
+
+.title {
+	color: #8B0A50;
+	font-size: large;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+li {
+	list-style: disc;
+	margin-top: 5px;
+}

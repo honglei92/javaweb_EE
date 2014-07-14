@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.student.score.manage.model">
+	<class name="ScoreInfo" table="ScoreInfo">
+		<composite-id name="scoreId" class="ScoreId">
+			<!-- 复合主键配置，其中两个 key-property分别对应两个主键 -->
+			<key-property name="sid" type="java.lang.String">
+				<column name="sid" length="12"></column>
+			</key-property>
+			<key-property name="cid" type="java.lang.String">
+				<column name="cid" length="8"></column>
+			</key-property>
+		</composite-id>
+		<property name="score" column="score" type="java.lang.Integer" />
+		<property name="credit" column="credit" type="java.lang.Integer" />
+	</class>
+</hibernate-mapping>

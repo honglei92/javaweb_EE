@@ -1,0 +1,98 @@
+#info {
+	background-image: url("../images/back.jpg");
+	width: 890px;
+	height: 650px;
+	position: relative;
+	margin: 1px auto;
+}
+
+#reginfo {
+	width: 600px;
+	height: 580px;
+	margin: 5px auto;
+	position: relative;
+}
+
+#reginfo #sir {
+	font-size: large;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+#reginfo #si {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#reginfo #sn {
+	margin-left: 20px;
+}
+
+#reginfo #ss {
+	margin-left: 20px;
+}
+
+#reginfo #sb {
+	margin-left: 20px;
+}
+
+#reginfo #sz {
+	margin-left: 20px;
+}
+
+#reginfo #sr {
+	margin-left: 20px;
+}
+
+#reginfo #remark { /* 使标题位于垂直方向的顶部 */
+	vertical-align: top;
+}
+
+#sr img {
+	margin-left: 20px;
+	border-color: blue;
+}
+
+#reginfo #sp {
+	margin-left: 20px;
+}
+
+#reginfo .zp {
+	background-color: blue;
+	width: 120px;
+	height: 180px;
+	float: left;
+}
+
+#reginfo .submit {
+	margin-left: 200px;
+	margin-bottom: 40px;
+}
+
+#reginfo .reset {
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+
+a {
+	text-decoration: none;
+	font-size: large;
+	margin-left: 15px;
+}
+
+a:LINK {
+	color: #000000;
+}
+
+a:VISITED {
+	color: #cc00cc;
+}
+
+a:HOVER {
+	color: #006633;
+}
+
+a:ACTIVE {
+	color: #cc0000;
+}

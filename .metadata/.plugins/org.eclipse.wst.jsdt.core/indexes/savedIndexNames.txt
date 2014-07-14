@@ -1,7 +1,6 @@
-INDEX VERSION 1.122+E:\Github\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-495737537.index
-3950507418.index
-3339904457.index
-2776780386.index
-1207963539.index
-4251935551.index
+INDEX VERSION 1.122+D:\Github\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+827206514.index
+1884133810.index
+1306806701.index
+542966930.index
+2417350054.index
