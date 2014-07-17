@@ -1,7 +1,5 @@
 package ch05;
-
 import java.util.Scanner;
-
 public class Test4
 {
 	public int findIndex(String string,int start,int end,String str)

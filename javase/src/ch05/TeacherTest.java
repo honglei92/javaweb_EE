@@ -4,7 +4,7 @@ public class TeacherTest
 	public static void main(String args[])
 	{
 		Teacher t1=new Teacher();
-		t1.tname="圣堂人";
+		t1.tname="刘老师";
 		t1.tno="23987958";
 		t1.age=43;
 		System.out.println(t1.tname);
@@ -13,7 +13,7 @@ public class TeacherTest
 		t1.Teach();
 		t1.Do();
 		System.out.println(t1);
-		System.out.println("-=================");
+		System.out.println("==================");
 		Teacher t2=new Teacher();
 		System.out.println(t2.tname);
 		System.out.println(t2.tno);
