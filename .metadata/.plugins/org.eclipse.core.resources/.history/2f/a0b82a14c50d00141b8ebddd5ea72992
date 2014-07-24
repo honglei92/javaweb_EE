@@ -1,8 +1,0 @@
-package whlei;
-
-public class aplogize {
-	public static void main(String []args)
-	{
-		
-	}
-}

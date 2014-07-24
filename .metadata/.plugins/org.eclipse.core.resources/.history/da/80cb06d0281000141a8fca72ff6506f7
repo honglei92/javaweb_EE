@@ -1,0 +1,9 @@
+package org.action;
+
+public class RegistAction extends ActionSupport{
+	private String username;
+	private String password;
+	private String repassword;
+	private int age;
+	
+}
